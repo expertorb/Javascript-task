@@ -4,3 +4,4 @@ var accountEmail = "info@gmail.com"; // Var vaiable should not use
 password = "21212";
 let addressname;
 console.table([accountId, accountName, accountEmail, password, addressname]);
+console.log(accountName);
