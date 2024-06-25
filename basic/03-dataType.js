@@ -24,4 +24,4 @@ console.log(dataObj);
 
 const firstFun = function raju (){
 }    
-console.log(firstFun)
+console.log(firstFun) //funtions
