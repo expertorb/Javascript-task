@@ -21,3 +21,4 @@ objectOne.greetingTwo = function (){
     console.log(`Hello JS User ${this.name}`);
 }
 console.log(objectOne.greetingTwo());
+
