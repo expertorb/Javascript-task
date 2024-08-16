@@ -8,7 +8,7 @@ const arryThree = new Array(7, 8, 9);
 
 
 // arryOne.push(9); //add one number
-// arryOne.pop(); //delet last number
+// arryOne.pop(); //delete last number
 
 // arryOne.shift() //delet 0 auto
 // arryOne.unshift(3); // fisrt add
@@ -35,8 +35,8 @@ const fourArray = ["md", "abdul", "korim"];
 // const fiveArray = threeArray.concat(fourArray);
 // console.log(fiveArray);
 
-// const allArray = [...threeArray, ...fourArray];
-// console.log(allArray);
+const allArray = [...threeArray, ...fourArray];
+ console.log(allArray);
 
 console.log(Array.isArray("RAJU"));
 console.log(Array.from("RAJU"));
@@ -47,3 +47,38 @@ let score2 = 150
 let score3 = 190
 
 console.log(Array.of(score1, score2, score3));
+
+const names = ["HP", "dell", "Lenevo"];
+console.log(names[2])
+
+const marks = [10, 12, 99];
+console.log(marks);
+
+const stName = [];
+stName[0] = "This";
+stName[1] = "is";
+stName[2] = "a pen";
+console.log(stName);
+
+const stnameOne = new Array("Raju", "Ahmed", "JU");
+stnameOne.pop();
+stnameOne.pop();
+console.log(stnameOne);
+
+const stnameTwo = new Array("One", "two", "Three", "Four");
+stnameTwo.splice(0,3);
+// stnameTwo.slice(0,2)
+console.log(stnameTwo);
+
+const stnameThree = ["One", "two", "four", "five"];
+stnameThree.push("Three");
+console.log(stnameThree);
+
+// Short/Reverce
+const stnameFour = ["bike","car", "place"];
+stnameFour.reverse();
+console.log(stnameFour);
+
+const stnameFive = ["plane","zet", "roket"];
+stnameFive.sort();
+console.log(stnameFive);
