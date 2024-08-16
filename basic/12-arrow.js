@@ -37,7 +37,9 @@ three()
 // }
 // console.log(four(4, 9))
 
-const four = (num1, num2) => num1 + num2
+// const four = (num1, num2) => num1 + num2
+// const four = (num1, num2) => (num1 + num2)
+const four = (num1, num2) => ({username: "Ahmed"})
 console.log(four(4, 9));
 
 

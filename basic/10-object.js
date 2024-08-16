@@ -26,12 +26,12 @@ const objectOne = {
 //  const tinderUser = new Object();
 // console.log(typeof tinderUser);
 
-// const tinderUserOne = {}
-// tinderUserOne.id = "abc123";
-// tinderUserOne.name = "Raju";
-// tinderUserOne.login = false;
+const tinderUserOne = {}
+tinderUserOne.id = "abc123";
+tinderUserOne.name = "Raju";
+tinderUserOne.login = false;
 
-// console.log(tinderUserOne);
+console.log(tinderUserOne);
 
 const tinderUserTwo = {
     email1:"qwqw@gmail.com",
