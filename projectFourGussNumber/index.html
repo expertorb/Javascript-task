@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Two</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-top">
+            <h1>Namber Gusessing Game</h1>
+            <p>Try to guss a rendom number 1 to 100</p>
+            <p>You have 10 attempts to guss the right number</p>
+        </div>
+
+        <form class="form" action="">
+            <label for="gussesField" id="guss">Gusses A number</label>
+            <input type="text" id="gussesField" class="gussesField">
+            <input type="submit" id="subt" class="" value="SUBMIT">
+        </form>
+
+        <div class="resuptPara">
+            <p>Previous Gusses : <span class="guesses"></span></p>
+            <p>Guesses Remaining : <span class="lastResult">10</span></p>
+            <p class="lowOrhi"></p>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
